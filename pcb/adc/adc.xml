@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\kisum\Documents\30220 - Synthesis\pcb\adc\adc.sch</source>
+    <date>11/16/2020 2:38:07 PM</date>
+    <tool>Eeschema (5.1.7)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>adc.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>LTC2380CMS-16PBF</value>
+      <footprint>adc_mylib:MSOP-16_MS</footprint>
+      <datasheet>ltc2380cms16#pbf</datasheet>
+      <fields>
+        <field name="Field4">LinearTech</field>
+      </fields>
+      <libsource lib="ADC_mylib" part="LTC2380CMS-16PBF" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FB4D282</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>LTC2380CMS-16PBF</value>
+      <footprint>adc_mylib:MSOP-16_MS</footprint>
+      <datasheet>ltc2380cms16#pbf</datasheet>
+      <fields>
+        <field name="Field4">LinearTech</field>
+      </fields>
+      <libsource lib="ADC_mylib" part="LTC2380CMS-16PBF" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FB4F9E1</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x10_Male</value>
+      <footprint>Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x10_Male" description="Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FB6B8CA</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>3300pF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FBE76A6</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>3300pF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FBE76AC</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>3300pF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FBE76B2</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>20 Ohm</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FBE76B8</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>20 Ohm</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FBE76BE</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>AudioJack3</value>
+      <footprint>adc_mylib:Lumberg_1503_03</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="AudioJack3" description="Audio Jack, 3 Poles (Stereo / TRS)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FBE76C6</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>3300pF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FBF2E94</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>3300pF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FBF2E9A</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>3300pF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FBF2EA0</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>20 Ohm</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FBF2EA6</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>20 Ohm</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FBF2EAC</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>AudioJack3</value>
+      <footprint>adc_mylib:Lumberg_1503_03</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="AudioJack3" description="Audio Jack, 3 Poles (Stereo / TRS)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FBF2EB4</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>47uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FC0540B</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>47uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FC0F532</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FC2DB8F</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FC34AB7</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FC54C26</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FC5BAFC</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="ADC_mylib" part="LTC2380CMS-16PBF">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LTC2380CMS-16PBF</field>
+        <field name="Footprint">MSOP-16_MS</field>
+        <field name="Datasheet">ltc2380cms16#pbf</field>
+        <field name="Field4">LinearTech</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CHAIN" type="passive"/>
+        <pin num="2" name="VDD" type="power_in"/>
+        <pin num="3" name="GND_2" type="power_in"/>
+        <pin num="4" name="IN+" type="input"/>
+        <pin num="5" name="IN-" type="input"/>
+        <pin num="6" name="GND_3" type="power_in"/>
+        <pin num="7" name="REF" type="input"/>
+        <pin num="8" name="REF/*DGC" type="input"/>
+        <pin num="9" name="CNV" type="input"/>
+        <pin num="10" name="GND_4" type="power_in"/>
+        <pin num="11" name="BUSY" type="passive"/>
+        <pin num="12" name="RDL/SDI" type="input"/>
+        <pin num="13" name="SCK" type="input"/>
+        <pin num="14" name="SDO" type="output"/>
+        <pin num="15" name="OVDD" type="power_in"/>
+        <pin num="16" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="AudioJack3">
+      <description>Audio Jack, 3 Poles (Stereo / TRS)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Jack*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">AudioJack3</field>
+      </fields>
+      <pins>
+        <pin num="R" name="~" type="passive"/>
+        <pin num="S" name="~" type="passive"/>
+        <pin num="T" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x10_Male">
+      <description>Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x10_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="ADC_mylib">
+      <uri>C:\Users\kisum\Documents\30220 - Synthesis\pcb\adc/ADC_mylib.lib</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(C4-Pad2)">
+      <node ref="U2" pin="4"/>
+      <node ref="R3" pin="1"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C5" pin="1"/>
+    </net>
+    <net code="2" name="Net-(C1-Pad2)">
+      <node ref="U1" pin="4"/>
+      <node ref="R1" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C2" pin="1"/>
+    </net>
+    <net code="3" name="Net-(J1-PadT)">
+      <node ref="J1" pin="T"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="4" name="Net-(J1-PadR)">
+      <node ref="R1" pin="2"/>
+      <node ref="J1" pin="R"/>
+    </net>
+    <net code="5" name="Net-(C5-Pad2)">
+      <node ref="U2" pin="5"/>
+      <node ref="C5" pin="2"/>
+      <node ref="R4" pin="1"/>
+      <node ref="C6" pin="1"/>
+    </net>
+    <net code="6" name="GND">
+      <node ref="U2" pin="6"/>
+      <node ref="C9" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="J2" pin="S"/>
+      <node ref="C4" pin="1"/>
+      <node ref="U1" pin="16"/>
+      <node ref="U2" pin="3"/>
+      <node ref="U2" pin="16"/>
+      <node ref="U2" pin="12"/>
+      <node ref="U2" pin="10"/>
+      <node ref="U1" pin="6"/>
+      <node ref="U1" pin="3"/>
+      <node ref="U1" pin="10"/>
+      <node ref="C1" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C7" pin="1"/>
+      <node ref="C11" pin="1"/>
+      <node ref="C6" pin="2"/>
+      <node ref="J1" pin="S"/>
+      <node ref="C12" pin="1"/>
+    </net>
+    <net code="7" name="Net-(C2-Pad2)">
+      <node ref="C3" pin="1"/>
+      <node ref="C2" pin="2"/>
+      <node ref="U1" pin="5"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="8" name="Net-(J2-PadR)">
+      <node ref="R3" pin="2"/>
+      <node ref="J2" pin="R"/>
+    </net>
+    <net code="9" name="Net-(J2-PadT)">
+      <node ref="J2" pin="T"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="10" name="Net-(C10-Pad1)">
+      <node ref="U1" pin="8"/>
+      <node ref="U1" pin="7"/>
+      <node ref="C9" pin="1"/>
+      <node ref="U2" pin="8"/>
+      <node ref="J3" pin="3"/>
+      <node ref="U2" pin="7"/>
+      <node ref="C10" pin="1"/>
+    </net>
+    <net code="11" name="Net-(J3-Pad5)">
+      <node ref="J3" pin="5"/>
+    </net>
+    <net code="12" name="Net-(J3-Pad9)">
+      <node ref="J3" pin="9"/>
+    </net>
+    <net code="13" name="Net-(J3-Pad2)">
+      <node ref="J3" pin="2"/>
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="14" name="Net-(J3-Pad4)">
+      <node ref="J3" pin="4"/>
+      <node ref="U1" pin="13"/>
+      <node ref="U2" pin="13"/>
+    </net>
+    <net code="15" name="Net-(J3-Pad6)">
+      <node ref="J3" pin="6"/>
+      <node ref="U1" pin="14"/>
+    </net>
+    <net code="16" name="Net-(J3-Pad1)">
+      <node ref="U2" pin="9"/>
+      <node ref="U1" pin="9"/>
+      <node ref="J3" pin="1"/>
+    </net>
+    <net code="17" name="Net-(J3-Pad10)">
+      <node ref="J3" pin="10"/>
+      <node ref="U2" pin="11"/>
+    </net>
+    <net code="18" name="Net-(U1-Pad12)">
+      <node ref="U1" pin="12"/>
+      <node ref="U2" pin="14"/>
+    </net>
+    <net code="19" name="Net-(C7-Pad2)">
+      <node ref="U1" pin="2"/>
+      <node ref="U2" pin="2"/>
+      <node ref="J3" pin="7"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C8" pin="2"/>
+    </net>
+    <net code="20" name="Net-(C11-Pad2)">
+      <node ref="U1" pin="15"/>
+      <node ref="C12" pin="2"/>
+      <node ref="J3" pin="8"/>
+      <node ref="U1" pin="1"/>
+      <node ref="U2" pin="1"/>
+      <node ref="C11" pin="2"/>
+      <node ref="U2" pin="15"/>
+    </net>
+  </nets>
+</export>
